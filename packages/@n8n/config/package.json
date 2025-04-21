@@ -21,8 +21,8 @@
     "dist/**/*"
   ],
   "engines": {
-    "node": ">=22.0.0 <22.14.0",
-    "pnpm": ">=10.8.0"
+    "node": ">=18.0.0 <20.0.0",
+    "pnpm": ">=10.2.1"
   },
   "dependencies": {
     "@n8n/di": "workspace:*",
@@ -31,5 +31,6 @@
   },
   "devDependencies": {
     "@n8n/typescript-config": "workspace:*"
+     "reflect-metadata": "catalog:"
   }
 }
